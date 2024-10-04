@@ -8,8 +8,8 @@ export default function TinyEditor() {
       apiKey={import.meta.env.VITE_TINYMCE_API_KEY}
       onInit={(_evt, editor) => editorRef.current = editor}
       init={{
-        plugins: 'wordcount',
-        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough',
+        plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount linkchecker',
+        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
       }}
       initialValue="Write your blog post here..."
     />
