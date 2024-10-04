@@ -1,4 +1,5 @@
 import React from 'react';
+import TinyEditor from './TinyEditor';
 
 const Blog = ({ formData, onFormChange }) => {
   return (
@@ -11,12 +12,7 @@ const Blog = ({ formData, onFormChange }) => {
         value={formData.title}
         onChange={onFormChange}
       />
-      <textarea
-        name="content"
-        placeholder="Start writing your post here..."
-        value={formData.content}
-        onChange={onFormChange}
-      />
+      <TinyEditor />
     </div>
   );
 };
