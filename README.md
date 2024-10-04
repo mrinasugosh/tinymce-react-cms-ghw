@@ -48,7 +48,8 @@ This will run the app in the development mode. Open [http://localhost:8080](http
 
 ## Final Demo
 
-[IMAGE]
+<img width="1458" alt="image" src="https://github.com/user-attachments/assets/7366a2ef-f786-437f-b103-15c0f51c933a">
+
 
 ## Resources
 
